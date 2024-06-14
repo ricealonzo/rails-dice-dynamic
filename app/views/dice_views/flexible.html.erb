@@ -1,6 +1,11 @@
+ <h1>
+  <%= @num_dice %>d<%= @sides%>
+ </h1>
+
 <h3>
-You are rolling  <%= @num_dice %> <%= @sides%>-sided dice!!  
+  You are rolling  <%= @num_dice %> <%= @sides%>-sided dice!!  
 </h3>
+
 <ul>
  <%@rolls.each do |each_roll| %>
   

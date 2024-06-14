@@ -18,7 +18,7 @@ class DiceController < ApplicationController
   end
   def home
 
-    render({:plain => "/dice_views/flexible"})
+    render({:template => "/dice_views/home"})
   end
   
 end
