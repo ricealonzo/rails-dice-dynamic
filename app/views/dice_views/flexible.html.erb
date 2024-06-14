@@ -1,0 +1,10 @@
+<h3>
+You are rolling  <%= @num_dice %> <%= @sides%>-sided dice!!  
+</h3>
+<ul>
+ <%@rolls.each do |each_roll| %>
+  
+    <li><%= each_roll %></li>
+  
+  <% end %>
+</ul>
